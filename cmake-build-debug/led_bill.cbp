@@ -27,6 +27,7 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="E:/32_workspace/led_bill/Bsp/Inc"/>
 					<Add directory="E:/32_workspace/led_bill/Core/Inc"/>
 					<Add directory="E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
@@ -56,6 +57,7 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="E:/32_workspace/led_bill/Bsp/Inc"/>
 					<Add directory="E:/32_workspace/led_bill/Core/Inc"/>
 					<Add directory="E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
@@ -96,6 +98,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/32_workspace/led_bill/Bsp/Inc/Bsp_motorUsart.h">
+			<Option target="led_bill.elf"/>
+		</Unit>
+		<Unit filename="E:/32_workspace/led_bill/Bsp/Inc/Bsp_usart.h">
+			<Option target="led_bill.elf"/>
+		</Unit>
+		<Unit filename="E:/32_workspace/led_bill/Bsp/Src/Bsp_motorUsart.c">
+			<Option target="led_bill.elf"/>
+		</Unit>
+		<Unit filename="E:/32_workspace/led_bill/Bsp/Src/Bsp_usart.c">
+			<Option target="led_bill.elf"/>
+		</Unit>
 		<Unit filename="E:/32_workspace/led_bill/Core/Inc/gpio.h">
 			<Option target="led_bill.elf"/>
 		</Unit>
@@ -106,6 +120,9 @@
 			<Option target="led_bill.elf"/>
 		</Unit>
 		<Unit filename="E:/32_workspace/led_bill/Core/Inc/stm32f1xx_it.h">
+			<Option target="led_bill.elf"/>
+		</Unit>
+		<Unit filename="E:/32_workspace/led_bill/Core/Inc/usart.h">
 			<Option target="led_bill.elf"/>
 		</Unit>
 		<Unit filename="E:/32_workspace/led_bill/Core/Src/gpio.c">
@@ -127,6 +144,9 @@
 			<Option target="led_bill.elf"/>
 		</Unit>
 		<Unit filename="E:/32_workspace/led_bill/Core/Src/system_stm32f1xx.c">
+			<Option target="led_bill.elf"/>
+		</Unit>
+		<Unit filename="E:/32_workspace/led_bill/Core/Src/usart.c">
 			<Option target="led_bill.elf"/>
 		</Unit>
 		<Unit filename="E:/32_workspace/led_bill/Core/Startup/startup_stm32f103c8tx.s">
@@ -258,6 +278,9 @@
 		<Unit filename="E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
 			<Option target="led_bill.elf"/>
 		</Unit>
+		<Unit filename="E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="led_bill.elf"/>
+		</Unit>
 		<Unit filename="E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
 			<Option target="led_bill.elf"/>
 		</Unit>
@@ -280,6 +303,9 @@
 			<Option target="led_bill.elf"/>
 		</Unit>
 		<Unit filename="E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="led_bill.elf"/>
+		</Unit>
+		<Unit filename="E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
 			<Option target="led_bill.elf"/>
 		</Unit>
 		<Unit filename="E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
@@ -325,6 +351,9 @@
 			<Option target="led_bill.elf"/>
 		</Unit>
 		<Unit filename="E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="led_bill.elf"/>
+		</Unit>
+		<Unit filename="E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
 			<Option target="led_bill.elf"/>
 		</Unit>
 		<Unit filename="E:/32_workspace/led_bill/STM32F103C8TX_FLASH.ld">

@@ -68,10 +68,38 @@ include CMakeFiles/led_bill.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/led_bill.elf.dir/flags.make
 
+CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_motorUsart.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
+CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_motorUsart.c.obj: E:/32_workspace/led_bill/Bsp/Src/Bsp_motorUsart.c
+CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_motorUsart.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_motorUsart.c.obj"
+	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_motorUsart.c.obj -MF CMakeFiles\led_bill.elf.dir\Bsp\Src\Bsp_motorUsart.c.obj.d -o CMakeFiles\led_bill.elf.dir\Bsp\Src\Bsp_motorUsart.c.obj -c E:\32_workspace\led_bill\Bsp\Src\Bsp_motorUsart.c
+
+CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_motorUsart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_motorUsart.c.i"
+	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\32_workspace\led_bill\Bsp\Src\Bsp_motorUsart.c > CMakeFiles\led_bill.elf.dir\Bsp\Src\Bsp_motorUsart.c.i
+
+CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_motorUsart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_motorUsart.c.s"
+	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\32_workspace\led_bill\Bsp\Src\Bsp_motorUsart.c -o CMakeFiles\led_bill.elf.dir\Bsp\Src\Bsp_motorUsart.c.s
+
+CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_usart.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
+CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_usart.c.obj: E:/32_workspace/led_bill/Bsp/Src/Bsp_usart.c
+CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_usart.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_usart.c.obj"
+	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_usart.c.obj -MF CMakeFiles\led_bill.elf.dir\Bsp\Src\Bsp_usart.c.obj.d -o CMakeFiles\led_bill.elf.dir\Bsp\Src\Bsp_usart.c.obj -c E:\32_workspace\led_bill\Bsp\Src\Bsp_usart.c
+
+CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_usart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_usart.c.i"
+	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\32_workspace\led_bill\Bsp\Src\Bsp_usart.c > CMakeFiles\led_bill.elf.dir\Bsp\Src\Bsp_usart.c.i
+
+CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_usart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_usart.c.s"
+	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\32_workspace\led_bill\Bsp\Src\Bsp_usart.c -o CMakeFiles\led_bill.elf.dir\Bsp\Src\Bsp_usart.c.s
+
 CMakeFiles/led_bill.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Core/Src/gpio.c.obj: E:/32_workspace/led_bill/Core/Src/gpio.c
 CMakeFiles/led_bill.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/led_bill.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/led_bill.elf.dir/Core/Src/gpio.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\led_bill.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\led_bill.elf.dir\Core\Src\gpio.c.obj -c E:\32_workspace\led_bill\Core\Src\gpio.c
 
 CMakeFiles/led_bill.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -85,7 +113,7 @@ CMakeFiles/led_bill.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/led_bill.elf.dir/Core/Src/main.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Core/Src/main.c.obj: E:/32_workspace/led_bill/Core/Src/main.c
 CMakeFiles/led_bill.elf.dir/Core/Src/main.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/led_bill.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/led_bill.elf.dir/Core/Src/main.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\led_bill.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\led_bill.elf.dir\Core\Src\main.c.obj -c E:\32_workspace\led_bill\Core\Src\main.c
 
 CMakeFiles/led_bill.elf.dir/Core/Src/main.c.i: cmake_force
@@ -99,7 +127,7 @@ CMakeFiles/led_bill.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: E:/32_workspace/led_bill/Core/Src/stm32f1xx_hal_msp.c
 CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -MF CMakeFiles\led_bill.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d -o CMakeFiles\led_bill.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c E:\32_workspace\led_bill\Core\Src\stm32f1xx_hal_msp.c
 
 CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
@@ -113,7 +141,7 @@ CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_force
 CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_it.c.obj: E:/32_workspace/led_bill/Core/Src/stm32f1xx_it.c
 CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_it.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_it.c.obj -MF CMakeFiles\led_bill.elf.dir\Core\Src\stm32f1xx_it.c.obj.d -o CMakeFiles\led_bill.elf.dir\Core\Src\stm32f1xx_it.c.obj -c E:\32_workspace\led_bill\Core\Src\stm32f1xx_it.c
 
 CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
@@ -127,7 +155,7 @@ CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 CMakeFiles/led_bill.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Core/Src/syscalls.c.obj: E:/32_workspace/led_bill/Core/Src/syscalls.c
 CMakeFiles/led_bill.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/led_bill.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/led_bill.elf.dir/Core/Src/syscalls.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\led_bill.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\led_bill.elf.dir\Core\Src\syscalls.c.obj -c E:\32_workspace\led_bill\Core\Src\syscalls.c
 
 CMakeFiles/led_bill.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -141,7 +169,7 @@ CMakeFiles/led_bill.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/led_bill.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Core/Src/sysmem.c.obj: E:/32_workspace/led_bill/Core/Src/sysmem.c
 CMakeFiles/led_bill.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/led_bill.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/led_bill.elf.dir/Core/Src/sysmem.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\led_bill.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\led_bill.elf.dir\Core\Src\sysmem.c.obj -c E:\32_workspace\led_bill\Core\Src\sysmem.c
 
 CMakeFiles/led_bill.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -155,7 +183,7 @@ CMakeFiles/led_bill.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/led_bill.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Core/Src/system_stm32f1xx.c.obj: E:/32_workspace/led_bill/Core/Src/system_stm32f1xx.c
 CMakeFiles/led_bill.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/led_bill.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/led_bill.elf.dir/Core/Src/system_stm32f1xx.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Core/Src/system_stm32f1xx.c.obj -MF CMakeFiles\led_bill.elf.dir\Core\Src\system_stm32f1xx.c.obj.d -o CMakeFiles\led_bill.elf.dir\Core\Src\system_stm32f1xx.c.obj -c E:\32_workspace\led_bill\Core\Src\system_stm32f1xx.c
 
 CMakeFiles/led_bill.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
@@ -166,9 +194,23 @@ CMakeFiles/led_bill.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/led_bill.elf.dir/Core/Src/system_stm32f1xx.c.s"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\32_workspace\led_bill\Core\Src\system_stm32f1xx.c -o CMakeFiles\led_bill.elf.dir\Core\Src\system_stm32f1xx.c.s
 
+CMakeFiles/led_bill.elf.dir/Core/Src/usart.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
+CMakeFiles/led_bill.elf.dir/Core/Src/usart.c.obj: E:/32_workspace/led_bill/Core/Src/usart.c
+CMakeFiles/led_bill.elf.dir/Core/Src/usart.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/led_bill.elf.dir/Core/Src/usart.c.obj"
+	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\led_bill.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\led_bill.elf.dir\Core\Src\usart.c.obj -c E:\32_workspace\led_bill\Core\Src\usart.c
+
+CMakeFiles/led_bill.elf.dir/Core/Src/usart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/led_bill.elf.dir/Core/Src/usart.c.i"
+	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\32_workspace\led_bill\Core\Src\usart.c > CMakeFiles\led_bill.elf.dir\Core\Src\usart.c.i
+
+CMakeFiles/led_bill.elf.dir/Core/Src/usart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/led_bill.elf.dir/Core/Src/usart.c.s"
+	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\32_workspace\led_bill\Core\Src\usart.c -o CMakeFiles\led_bill.elf.dir\Core\Src\usart.c.s
+
 CMakeFiles/led_bill.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: E:/32_workspace/led_bill/Core/Startup/startup_stm32f103c8tx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/led_bill.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/led_bill.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\led_bill.elf.dir\Core\Startup\startup_stm32f103c8tx.s.obj -c E:\32_workspace\led_bill\Core\Startup\startup_stm32f103c8tx.s
 
 CMakeFiles/led_bill.elf.dir/Core/Startup/startup_stm32f103c8tx.s.i: cmake_force
@@ -182,7 +224,7 @@ CMakeFiles/led_bill.elf.dir/Core/Startup/startup_stm32f103c8tx.s.s: cmake_force
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -MF CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
 
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
@@ -196,7 +238,7 @@ CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s: 
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -MF CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
 
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
@@ -210,7 +252,7 @@ CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_corte
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -MF CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
 
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
@@ -224,7 +266,7 @@ CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -MF CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
 
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
@@ -238,7 +280,7 @@ CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -MF CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
 
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
@@ -252,7 +294,7 @@ CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -MF CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -266,7 +308,7 @@ CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -MF CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
 
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
@@ -280,7 +322,7 @@ CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -MF CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -294,7 +336,7 @@ CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -MF CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
 
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -308,7 +350,7 @@ CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -MF CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
 
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -322,7 +364,7 @@ CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -MF CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -336,7 +378,7 @@ CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_e
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -MF CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj.d -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
 
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
@@ -350,7 +392,7 @@ CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -MF CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj.d -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
@@ -361,8 +403,24 @@ CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_e
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s"
 	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.s
 
+CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/led_bill.elf.dir/flags.make
+CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
+CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/led_bill.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj -MF CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj.d -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj -c E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c
+
+CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i"
+	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c > CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.i
+
+CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s"
+	C:\stm32_enviroment\arm-gnu-toolchain-13.3.rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c -o CMakeFiles\led_bill.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.s
+
 # Object files for target led_bill.elf
 led_bill_elf_OBJECTS = \
+"CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_motorUsart.c.obj" \
+"CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_usart.c.obj" \
 "CMakeFiles/led_bill.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/led_bill.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj" \
@@ -370,6 +428,7 @@ led_bill_elf_OBJECTS = \
 "CMakeFiles/led_bill.elf.dir/Core/Src/syscalls.c.obj" \
 "CMakeFiles/led_bill.elf.dir/Core/Src/sysmem.c.obj" \
 "CMakeFiles/led_bill.elf.dir/Core/Src/system_stm32f1xx.c.obj" \
+"CMakeFiles/led_bill.elf.dir/Core/Src/usart.c.obj" \
 "CMakeFiles/led_bill.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj" \
 "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" \
 "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" \
@@ -383,11 +442,14 @@ led_bill_elf_OBJECTS = \
 "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj" \
 "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" \
 "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" \
-"CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+"CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" \
+"CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
 
 # External object files for target led_bill.elf
 led_bill_elf_EXTERNAL_OBJECTS =
 
+led_bill.elf: CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_motorUsart.c.obj
+led_bill.elf: CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_usart.c.obj
 led_bill.elf: CMakeFiles/led_bill.elf.dir/Core/Src/gpio.c.obj
 led_bill.elf: CMakeFiles/led_bill.elf.dir/Core/Src/main.c.obj
 led_bill.elf: CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
@@ -395,6 +457,7 @@ led_bill.elf: CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_it.c.obj
 led_bill.elf: CMakeFiles/led_bill.elf.dir/Core/Src/syscalls.c.obj
 led_bill.elf: CMakeFiles/led_bill.elf.dir/Core/Src/sysmem.c.obj
 led_bill.elf: CMakeFiles/led_bill.elf.dir/Core/Src/system_stm32f1xx.c.obj
+led_bill.elf: CMakeFiles/led_bill.elf.dir/Core/Src/usart.c.obj
 led_bill.elf: CMakeFiles/led_bill.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
 led_bill.elf: CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
 led_bill.elf: CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
@@ -409,9 +472,10 @@ led_bill.elf: CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32
 led_bill.elf: CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
 led_bill.elf: CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
 led_bill.elf: CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+led_bill.elf: CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 led_bill.elf: CMakeFiles/led_bill.elf.dir/build.make
 led_bill.elf: CMakeFiles/led_bill.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C executable led_bill.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\32_workspace\led_bill\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C executable led_bill.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\led_bill.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building E:/32_workspace/led_bill/cmake-build-debug/led_bill.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building E:/32_workspace/led_bill/cmake-build-debug/led_bill.bin"

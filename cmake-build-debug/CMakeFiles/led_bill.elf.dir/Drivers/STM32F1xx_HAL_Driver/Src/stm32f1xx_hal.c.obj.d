@@ -29,4 +29,5 @@ CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_cortex.h \
  E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash.h \
  E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_flash_ex.h \
- E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h
+ E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_pwr.h \
+ E:\32_workspace\led_bill\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_uart.h

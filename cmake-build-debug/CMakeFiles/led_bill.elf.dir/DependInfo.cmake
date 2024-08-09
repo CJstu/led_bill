@@ -21,6 +21,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "E:/32_workspace/led_bill/Bsp/Inc"
   "E:/32_workspace/led_bill/Core/Inc"
   "E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Inc"
   "E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
@@ -30,6 +31,8 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "E:/32_workspace/led_bill/Bsp/Src/Bsp_motorUsart.c" "CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_motorUsart.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_motorUsart.c.obj.d"
+  "E:/32_workspace/led_bill/Bsp/Src/Bsp_usart.c" "CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_usart.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Bsp/Src/Bsp_usart.c.obj.d"
   "E:/32_workspace/led_bill/Core/Src/gpio.c" "CMakeFiles/led_bill.elf.dir/Core/Src/gpio.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Core/Src/gpio.c.obj.d"
   "E:/32_workspace/led_bill/Core/Src/main.c" "CMakeFiles/led_bill.elf.dir/Core/Src/main.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Core/Src/main.c.obj.d"
   "E:/32_workspace/led_bill/Core/Src/stm32f1xx_hal_msp.c" "CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj.d"
@@ -37,6 +40,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/32_workspace/led_bill/Core/Src/syscalls.c" "CMakeFiles/led_bill.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Core/Src/syscalls.c.obj.d"
   "E:/32_workspace/led_bill/Core/Src/sysmem.c" "CMakeFiles/led_bill.elf.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Core/Src/sysmem.c.obj.d"
   "E:/32_workspace/led_bill/Core/Src/system_stm32f1xx.c" "CMakeFiles/led_bill.elf.dir/Core/Src/system_stm32f1xx.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Core/Src/system_stm32f1xx.c.obj.d"
+  "E:/32_workspace/led_bill/Core/Src/usart.c" "CMakeFiles/led_bill.elf.dir/Core/Src/usart.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Core/Src/usart.c.obj.d"
   "E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj.d"
   "E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj.d"
   "E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj.d"
@@ -50,6 +54,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj.d"
   "E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj.d"
   "E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj.d"
+  "E:/32_workspace/led_bill/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj" "gcc" "CMakeFiles/led_bill.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
